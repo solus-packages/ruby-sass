@@ -1,0 +1,26 @@
+name       : ruby-sass
+version    : 3.4.22
+release    : 1
+source     :
+    - https://rubygems.org/downloads/sass-3.4.22.gem : 9e7bad9b3854e1913a6d30eb3bae69eca8dd61e55c63a92a78e14d67c4367236
+license    : MIT
+component  : programming
+summary    : Sass is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more.
+description: |
+    Sass is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more.
+extract    : no
+builddeps  :
+    - pkgconfig(ruby-2.2)
+rundeps    :
+    - ruby-maruku
+    - ruby-yard
+install    : |
+    export geminstalldir=$(ruby -e'puts Gem.default_dir')
+    export GEM_HOME=$geminstalldir
+    export GEM_PATH=$geminstalldir
+    gem install \
+        --ignore-dependencies \
+        --no-user-install \
+        -i "$installdir/$geminstalldir" \
+        -n "$installdir/usr/bin" \
+        $sources/sass-$version.gem
