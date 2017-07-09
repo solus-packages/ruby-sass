@@ -1,8 +1,8 @@
 name       : ruby-sass
-version    : 3.4.24
-release    : 2
+version    : 3.4.25
+release    : 3
 source     :
-    - https://rubygems.org/downloads/sass-3.4.24.gem : 4e1d6080fe48614110a649cd8990ef79644db08374aac508b752a908c954ad02
+    - https://rubygems.org/downloads/sass-3.4.25.gem : 7cd272c39bfa3a52fbfc2685f38697099971a8dc933e1c10a384bf862067d74d
 license    : MIT
 component  : programming
 summary    : Sass is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more.
