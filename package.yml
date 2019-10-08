@@ -1,6 +1,6 @@
 name       : ruby-sass
 version    : 3.4.25
-release    : 4
+release    : 5
 source     :
     - https://rubygems.org/downloads/sass-3.4.25.gem : 7cd272c39bfa3a52fbfc2685f38697099971a8dc933e1c10a384bf862067d74d
 license    : MIT
@@ -11,7 +11,7 @@ description: |
     Sass is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more.
 extract    : no
 builddeps  :
-    - pkgconfig(ruby-2.3)
+    - pkgconfig(ruby-2.6)
 rundeps    :
     - ruby-redcarpet
     - ruby-yard
