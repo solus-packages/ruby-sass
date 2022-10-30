@@ -1,17 +1,17 @@
 name       : ruby-sass
-version    : 3.4.25
-release    : 5
+version    : 3.7.4
+release    : 6
 source     :
-    - https://rubygems.org/downloads/sass-3.4.25.gem : 7cd272c39bfa3a52fbfc2685f38697099971a8dc933e1c10a384bf862067d74d
+    - https://rubygems.org/downloads/sass-3.7.4.gem : 808b0d39053aa69068df939e24671fe84fd5a9d3314486e1a1457d0934a4255d
+homepage   : https://rubygems.org/gems/sass
 license    : MIT
 component  : programming
-summary    : Sass is an extension of CSS, adding nested rules, variables, mixins,
-    selector inheritance, and more.
+summary    : Sass is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more
 description: |
-    Sass is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more.
+    Sass makes CSS fun again. Sass is an extension of CSS, adding nested rules, variables, mixins, selector inheritance, and more. It's translated to well-formatted, standard CSS using the command line tool or a web-framework plugin.
 extract    : no
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-3.1)
 rundeps    :
     - ruby-redcarpet
     - ruby-yard
